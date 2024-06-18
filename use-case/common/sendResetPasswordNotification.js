@@ -35,7 +35,7 @@ const sendResetPasswordNotification = ({ userDb }) => async (user) => {
     mailObj.template = '/views/email/ResetPassword';
     mailObj.data = {
       userName: user.username || '-',
-      link: `http://localhost:${process.env.CLIENT_PORT}${viewType}?rpId=${token}`,
+      link: `https://recruit-mono.onrender.com/${viewType}?rpId=${token}`,
       linkText: 'Reset Password',
     };
     try {

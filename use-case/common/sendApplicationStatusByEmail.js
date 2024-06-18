@@ -9,7 +9,7 @@ const sendApplicationStatusByEmail = async (data) => {
         data: {
             designation: data.designation,
             company: data.company,
-            page_link: 'http://localhost:5713'
+            page_link: 'https://recruit-mono.onrender.com'
         }
     };
     try {

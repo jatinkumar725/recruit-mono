@@ -23,7 +23,7 @@ const { googleClientSeekerPassportStrategy } = require('./middleware');
 const app = express();
 // const corsOptions = { origin: process.env.ALLOW_ORIGIN, };
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://recruit-mono.onrender.com",
   methods: "GET,POST,PUT,DELETE",
   credentials: true,
 };

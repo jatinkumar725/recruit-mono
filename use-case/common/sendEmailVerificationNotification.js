@@ -24,7 +24,7 @@ const sendEmailVerificationNotification = ({ codeDb }) => async (user) => {
     to: user.email,
   };
   let viewType = '/client/cloud-aggregator-sk/v1/auth/verifyEmail';
-  let redirect = `http://localhost:${process.env.CLIENT_PORT}${ACCOUNT_VERIFICATION[user.userType].redirect}?data=${token}&email=verifyPrimaryEmail`;
+  let redirect = `https://recruit-mono.onrender.com/${ACCOUNT_VERIFICATION[user.userType].redirect}?data=${token}&email=verifyPrimaryEmail`;
   mailObj.template = `/views/email/Verification/${getKeyByValue(USER_TYPES, user.userType)}`;
   mailObj.data = {
     userName: user.username || '-',

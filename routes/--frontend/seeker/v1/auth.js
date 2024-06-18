@@ -22,7 +22,7 @@ router.get('/rpLogin/forgotPassword', (req, res) => {
 // Redirect to /auth/google route for Google login
 router.get('/login/google', (req, res) => {
     req.session.platform = 'client';
-    res.redirect(`http://localhost:${process.env.PORT}/auth/google`);
+    res.redirect(`https://recruit-mono.onrender.com/auth/google`);
 });
 
 module.exports = router;

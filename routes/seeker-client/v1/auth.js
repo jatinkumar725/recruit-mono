@@ -15,7 +15,7 @@ router.route('/login/google').get((req,res)=>{
   req.session.platform = 'client';
   // res.redirect(`http://localhost:${process.env.PORT}/auth/google`);
   // Construct the redirect URL
-  const redirectUrl = `http://localhost:${process.env.PORT}/auth/google`;
+  const redirectUrl = `https://recruit-mono.onrender.com/auth/google`;
 
   // Send a response to the client to trigger the redirect
   res.status(200).json({ redirectUrl });

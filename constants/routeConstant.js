@@ -1,4 +1,4 @@
-const CLIENT = 'http://localhost:5173';
+const CLIENT = 'https://recruit-mono.onrender.com';
 
 const ROUTES = {
     searchJob: '/search',

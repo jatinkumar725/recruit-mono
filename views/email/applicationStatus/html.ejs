@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application Status Update</title>
+        <style>
+            /* Add your custom CSS styles here */
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                background-color: #f4f4f4;
+                padding: 20px;
+            }
+
+            .container {
+                max-width: 600px;
+                margin: auto;
+                background: #fff;
+                padding: 30px;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .logo {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .logo img {
+                max-width: 150px;
+            }
+
+            .message {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .status {
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+
+            .footer {
+                text-align: center;
+                margin-top: 30px;
+                color: #888;
+            }
+
+            #status-anchor {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="message">
+                <p>We wanted to inform you about the status update of your job application for the position of <%=designation%> at <%=company%>.</p>
+            </div>
+            <div class="status">
+                <p>Your application status has changed.</p>
+                <a href="<%=page_link%>" target="_blank" id="status-anchor">View status</a>
+            </div>
+            <div class="footer">
+                <p>If you have any questions, please feel free to contact us at <a
+                        href="mailto:recruitmentportal@mail.com">recruitmentportal@mail.com</a>.</p>
+                <p>Thank you,</p>
+                <p>The Batter Jobs Team</p>
+            </div>
+        </div>
+    </body>
+
+</html>

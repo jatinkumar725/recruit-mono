@@ -56,6 +56,14 @@ app.use(session({
 }));
 app.use(routes);
 
+// Serve client app
+app.use(express.static(path.join(__dirname, 'client/dist')));
+
+// Serve client app for all routes
+app.get("*", (req, res) => 
+  res.sendFile(path.join(__dirname, 'client/dist/index.html'))
+);
+
 // Middleware to handle unsupported methods
 const response = require("./utils/response");
 const responseHandler = require('./utils/response/responseHandler'); 

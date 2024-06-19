@@ -7,22 +7,22 @@ export default defineConfig({
   server: {
     proxy: {
       '/client': {
-        target: 'https://recruit-mono.onrender.com/',
+        target: 'https://recruit-mono.onrender.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
       '/assets': {
-        target: 'https://recruit-mono.onrender.com/',
+        target: 'https://recruit-mono.onrender.com',
         changeOrigin: true,
         rewrite: (path) => path,
       },
       '/rp-job-api': {
-        target: 'https://recruit-mono.onrender.com/',
+        target: 'https://recruit-mono.onrender.com',
         changeOrigin: true,
         rewrite: (path) => path,
       },
       // '/auth': {
-      //   target: 'https://recruit-mono.onrender.com/',
+      //   target: 'https://recruit-mono.onrender.com',
       //   changeOrigin: true,
       //   rewrite: (path) => path,
       // },

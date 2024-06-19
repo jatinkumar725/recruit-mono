@@ -4,13 +4,15 @@ import { Link } from "react-router-dom";
 import { SITE_DIR_URI } from "./../constants/siteConstants";
 import { APP_ROUTES } from "../constants/routeConstant";
 
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 import { useLocation } from 'react-router-dom';
+import Cookies from "js-cookie";
 
 const Header = () => {
+  
   // Check if seeker is logged-in
-  const { loggedUserInfo } = useSelector((state) => state.skAuth);
+  const isLoggedUserSeeker = Cookies.get('rp_at');
 
   const currentUrl = useLocation().pathname;
 
@@ -33,7 +35,7 @@ const Header = () => {
             <div className="right-widget ms-auto ms-lg-0 order-lg-2 d-none d-md-block">
               <ul className="d-flex align-items-center style-none">
                 {/* If not logged in */}
-                {!loggedUserInfo && (
+                {!isLoggedUserSeeker && (
                   <>
                     <li>
                       <Link
@@ -54,7 +56,7 @@ const Header = () => {
                   </>
                 )}
                 {/* If logged in */}
-                {loggedUserInfo && (
+                {isLoggedUserSeeker && (
                   <li className="ms-3">
                     <Link
                       to={APP_ROUTES.SeekerDashboard}
@@ -372,7 +374,7 @@ const Header = () => {
                     </Link>
                   </li>
                   {/* If not logged in */}
-                  {!loggedUserInfo && (
+                  {!isLoggedUserSeeker && (
                     <>
                       <li className="d-md-none mt-5">
                         <Link
@@ -393,7 +395,7 @@ const Header = () => {
                     </>
                   )}
                   {/* If logged in */}
-                  {loggedUserInfo && (
+                  {isLoggedUserSeeker && (
                     <li className="d-md-none mt-5">
                       <Link
                         to={APP_ROUTES.SeekerDashboard}

@@ -189,12 +189,12 @@ const schema = new Schema({
   },
   jdUrl: {
     type: String,
-    required: true,
     trim: true,
-    default: function () {
-      const staticUrl = generatePostPermalink(this);
-      return staticUrl;
-    }
+    // required: true,
+    // default: function () {
+    //   const staticUrl = generatePostPermalink(this);
+    //   return staticUrl;
+    // }
   }
 }, {
   timestamps: {
@@ -211,6 +211,11 @@ schema.pre('save', async function (next) {
   this.isActive = true;
 
   this.expireAfterDate = calculateExpirationDate(this.createdAt, this.expireAfter);
+
+  if (!this.jdUrl) {
+    const staticUrl = generatePostPermalink(this);
+    this.jdUrl = staticUrl;
+  }
 
   next();
 });

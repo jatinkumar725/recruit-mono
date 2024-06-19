@@ -51924,3 +51924,163 @@
 
 2024-06-19 00:08:32:832 http: ::1 GET /client/cloud-aggregator-service/v1/object/sec/education?category=specialisation 304 - - 117.783 ms
 
+2024-06-19 10:56:15:5615 http: ::1 GET /client/cloud-aggregator-sk/v1/auth/login/google 200 63 - 85.320 ms
+
+2024-06-19 10:56:15:5615 http: ::1 GET /favicon.ico 200 458 - 38.904 ms
+
+2024-06-19 10:56:18:5618 http: ::1 GET / 200 458 - 30.911 ms
+
+2024-06-19 10:56:18:5618 http: ::1 GET /assets/index-DFPT0b1g.css 200 553445 - 16.233 ms
+
+2024-06-19 10:56:18:5618 http: ::1 GET /assets/index-DlYA3UH6.js 200 1723937 - 24.344 ms
+
+2024-06-19 10:56:19:5619 http: ::1 GET /assets/client-DDOy3mE_.jpeg 200 59231 - 76.255 ms
+
+2024-06-19 10:56:19:5619 http: ::1 GET /assets/banner-01-B26Pddj4.jpg 200 532544 - 33.106 ms
+
+2024-06-19 10:56:19:5619 http: ::1 GET /assets/21-C0686e45.jpg 200 743264 - 76.101 ms
+
+2024-06-19 10:56:20:5620 http: ::1 GET /images/icon/icon_41.svg 200 653 - 209.299 ms
+
+2024-06-19 10:56:20:5620 http: ::1 GET /assets/bootstrap-icons-DSXWTQaD.woff2 200 121296 - 23.635 ms
+
+2024-06-19 10:56:20:5620 http: ::1 GET /assets/gordita_medium-webfont-Dtca1edH.woff2 200 24456 - 59.188 ms
+
+2024-06-19 10:56:20:5620 http: ::1 GET /assets/gordita_regular-webfont-1wtxrqo9.woff2 200 23476 - 72.858 ms
+
+2024-06-19 10:56:20:5620 http: ::1 GET /rp-job-api/v1/jobs?level=2 200 14873 - 316.632 ms
+
+2024-06-19 10:56:20:5620 http: ::1 GET /vite.svg 200 458 - 14.353 ms
+
+2024-06-19 10:56:24:5624 http: ::1 GET /client/central-auth-service/v1/login-status 200 18 - 4.265 ms
+
+2024-06-19 10:56:24:5624 http: ::1 GET /vite.svg 304 - - 12.412 ms
+
+2024-06-19 10:56:27:5627 http: ::1 GET /vite.svg 304 - - 3.985 ms
+
+2024-06-19 10:56:34:5634 http: ::1 POST /client/cloud-aggregator-rec/v1/auth/login 200 433 - 1299.214 ms
+
+2024-06-19 10:56:35:5635 http: ::1 GET /vite.svg 304 - - 34.308 ms
+
+2024-06-19 10:56:35:5635 http: ::1 GET /client/cloud-aggregator-rec/v1/user/me?level=2 200 911 - 265.327 ms
+
+2024-06-19 10:56:35:5635 http: ::1 GET /client/cloud-aggregator-rec/v1/user/dashboard 200 158 - 263.005 ms
+
+2024-06-19 10:56:35:5635 http: ::1 GET /assets/logo/1715511957240.jpeg 200 5058 - 45.399 ms
+
+2024-06-19 10:56:42:5642 http: ::1 GET /assets/index-DFPT0b1g.css 304 - - 6.493 ms
+
+2024-06-19 10:58:12:5812 http: ::1 GET /vite.svg 304 - - 32.071 ms
+
+2024-06-19 10:58:12:5812 http: ::1 POST /client/cloud-aggregator-rec/v1/post/list 200 5644 - 320.027 ms
+
+2024-06-19 10:58:13:5813 http: ::1 GET /vite.svg 304 - - 31.695 ms
+
+2024-06-19 10:58:13:5813 http: ::1 GET /client/cloud-aggregator-service/v1/object/pg/education?category=specialisation 200 698 - 150.920 ms
+
+2024-06-19 10:58:13:5813 http: ::1 GET /client/cloud-aggregator-service/v1/object/ppg/education?category=specialisation 200 128 - 168.987 ms
+
+2024-06-19 10:58:13:5813 http: ::1 GET /client/cloud-aggregator-service/v1/object/ssec/education?category=specialisation 200 89 - 151.760 ms
+
+2024-06-19 10:58:13:5813 http: ::1 GET /client/cloud-aggregator-service/v1/object/ug/education?category=specialisation 200 618 - 167.570 ms
+
+2024-06-19 10:58:13:5813 http: ::1 GET /client/cloud-aggregator-service/v1/object/sec/education?category=specialisation 200 89 - 166.725 ms
+
+2024-06-19 10:58:47:5847 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=s&method=search&category=designation&returnFields=name,termId 200 421 - 283.458 ms
+
+2024-06-19 10:58:47:5847 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=se&method=search&category=designation&returnFields=name,termId 200 217 - 99.068 ms
+
+2024-06-19 10:58:47:5847 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=sen&method=search&category=designation&returnFields=name,termId 200 137 - 85.683 ms
+
+2024-06-19 10:58:49:5849 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=c&method=search&category=designation&returnFields=name,termId 200 400 - 206.967 ms
+
+2024-06-19 10:58:49:5849 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=cu&method=search&category=designation&returnFields=name,termId 200 168 - 84.171 ms
+
+2024-06-19 10:58:58:5858 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=t&method=search&category=skill&returnFields=name,termId 200 496 - 355.715 ms
+
+2024-06-19 10:58:58:5858 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=te&method=search&category=skill&returnFields=name,termId 200 546 - 297.926 ms
+
+2024-06-19 10:58:59:5859 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=tes&method=search&category=skill&returnFields=name,termId 200 166 - 126.284 ms
+
+2024-06-19 10:58:59:5859 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=test&method=search&category=skill&returnFields=name,termId 200 131 - 90.415 ms
+
+2024-06-19 10:59:03:593 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=b&method=search&category=industry&returnFields=name,termId 200 168 - 182.982 ms
+
+2024-06-19 10:59:03:593 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=ba&method=search&category=industry&returnFields=name,termId 200 89 - 134.479 ms
+
+2024-06-19 10:59:05:595 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=b&method=search&category=industry&returnFields=name,termId 304 - - 220.282 ms
+
+2024-06-19 10:59:31:5931 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=d&method=search&category=city&returnFields=name,termId 200 430 - 205.087 ms
+
+2024-06-19 10:59:31:5931 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=de&method=search&category=city&returnFields=name,termId 200 297 - 119.537 ms
+
+2024-06-19 10:59:35:5935 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=d&method=search&category=pincode&returnFields=name,termId 200 89 - 198.623 ms
+
+2024-06-19 10:59:35:5935 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=de&method=search&category=pincode&returnFields=name,termId 200 89 - 77.751 ms
+
+2024-06-19 10:59:36:5936 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=d&method=search&category=pincode&returnFields=name,termId 304 - - 165.160 ms
+
+2024-06-19 10:59:37:5937 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=h&method=search&category=pincode&returnFields=name,termId 200 89 - 195.387 ms
+
+2024-06-19 10:59:37:5937 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=he&method=search&category=pincode&returnFields=name,termId 200 89 - 82.672 ms
+
+2024-06-19 10:59:38:5938 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=1&method=search&category=pincode&returnFields=name,termId 200 398 - 102.663 ms
+
+2024-06-19 10:59:38:5938 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=19&method=search&category=pincode&returnFields=name,termId 200 89 - 83.777 ms
+
+2024-06-19 10:59:38:5938 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=190&method=search&category=pincode&returnFields=name,termId 200 89 - 82.573 ms
+
+2024-06-19 10:59:42:5942 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=11&method=search&category=pincode&returnFields=name,termId 200 398 - 116.503 ms
+
+2024-06-19 10:59:46:5946 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=1&method=search&category=company&returnFields=name,termId 200 89 - 78.132 ms
+
+2024-06-19 10:59:47:5947 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=9&method=search&category=company&returnFields=name,termId 200 89 - 75.163 ms
+
+2024-06-19 10:59:48:5948 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=99&method=search&category=company&returnFields=name,termId 200 89 - 113.599 ms
+
+2024-06-19 10:59:48:5948 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=999&method=search&category=company&returnFields=name,termId 200 89 - 79.396 ms
+
+2024-06-19 10:59:49:5949 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=t&method=search&category=company&returnFields=name,termId 200 424 - 257.394 ms
+
+2024-06-19 10:59:49:5949 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=te&method=search&category=company&returnFields=name,termId 200 338 - 180.831 ms
+
+2024-06-19 10:59:50:5950 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=tes&method=search&category=company&returnFields=name,termId 200 89 - 78.421 ms
+
+2024-06-19 10:59:50:5950 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=test&method=search&category=company&returnFields=name,termId 200 89 - 83.960 ms
+
+2024-06-19 10:59:52:5952 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=c&method=search&category=company&returnFields=name,termId 200 280 - 178.799 ms
+
+2024-06-19 10:59:53:5953 http: ::1 GET /client/cloud-aggregator-taxonomy/suggester?query=co&method=search&category=company&returnFields=name,termId 200 200 - 156.797 ms
+
+2024-06-19 11:00:11:011 http: ::1 POST /client/cloud-aggregator-rec/v1/post/add 500 106 - 366.921 ms
+
+2024-06-19 11:06:24:624 http: ::1 POST /client/cloud-aggregator-rec/v1/post/add 500 106 - 784.620 ms
+
+2024-06-19 11:07:19:719 http: ::1 POST /client/cloud-aggregator-rec/v1/post/add 500 106 - 266.732 ms
+
+2024-06-19 11:08:59:859 http: ::1 POST /client/cloud-aggregator-rec/v1/post/add 200 1020 - 1536.902 ms
+
+2024-06-19 11:08:59:859 http: ::1 GET /vite.svg 200 458 - 61.262 ms
+
+2024-06-19 11:08:59:859 http: ::1 POST /client/cloud-aggregator-rec/v1/post/list 200 6354 - 332.874 ms
+
+2024-06-19 11:09:26:926 http: ::1 GET /client/cloud-aggregator-service/v1/object/ug/education?category=specialisation 200 618 - 201.782 ms
+
+2024-06-19 11:09:26:926 http: ::1 GET /client/cloud-aggregator-service/v1/object/ssec/education?category=specialisation 200 89 - 212.065 ms
+
+2024-06-19 11:09:26:926 http: ::1 GET /client/cloud-aggregator-service/v1/object/sec/education?category=specialisation 200 89 - 219.502 ms
+
+2024-06-19 11:09:26:926 http: ::1 GET /client/cloud-aggregator-service/v1/object/ppg/education?category=specialisation 200 128 - 226.828 ms
+
+2024-06-19 11:09:26:926 http: ::1 GET /client/cloud-aggregator-service/v1/object/pg/education?category=specialisation 200 698 - 294.441 ms
+
+2024-06-19 11:09:26:926 http: ::1 GET /vite.svg 200 458 - 46.718 ms
+
+2024-06-19 11:09:26:926 http: ::1 GET /client/cloud-aggregator-rec/v1/post/2 200 1915 - 559.929 ms
+
+2024-06-19 11:10:56:1056 http: ::1 PUT /client/cloud-aggregator-rec/v1/post/update/2 200 1098 - 1141.637 ms
+
+2024-06-19 11:10:56:1056 http: ::1 GET /vite.svg 200 458 - 19.243 ms
+
+2024-06-19 11:10:56:1056 http: ::1 POST /client/cloud-aggregator-rec/v1/post/list 200 6393 - 273.912 ms
+

@@ -24,7 +24,7 @@ const initialState = {
 };
 
 export const initializeAuth = createAsyncThunk(
-  'auth/initialize',
+  'auth/initialize/rc',
   async () => {
     const loggedUserInfo = await getUserInfo();
     const timestamp = await getTimeStampInfo();

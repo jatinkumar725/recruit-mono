@@ -24,7 +24,7 @@ const initialState = {
 };
 
 export const initializeAuth = createAsyncThunk(
-  'auth/initialize',
+  'auth/initialize/sk',
   async () => {
     const loggedUserInfo = await getUserInfo();
     const timestamp = await getTimeStampInfo();

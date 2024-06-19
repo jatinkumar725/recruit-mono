@@ -281,3 +281,9 @@ Note: I think this will help to fix in (1) as well
 - Change Log
 1. Change refresh token secrets for seeker & recruiter to access token secrets 
 2. Change recruiter cookies prefix to 'rpc_' ( rpc_at, rpc_rt )
+3. Change `isLoggedIn` in get post to isSeekerLoggedIn  
+4. "Go to dashboard" in header not to visible on recruiter login
+
+# 19 June, 2024
+1. Create clean string utility in server and use with post permalink
+2. Remove default from `jdUrl` from post schema and put in pre save hook 
